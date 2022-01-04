@@ -1,0 +1,56 @@
+nav {
+    padding: 1em; 
+    border-style: solid; 
+    border-width: 0.15em;
+    border-color: rgb(219, 130, 172); 
+    border-radius: 2em; 
+    font-family: 'Concert One', cursive; 
+}
+nav a {
+    padding-left: 5em; 
+    color: rgb(219, 130, 172);
+}
+
+.row{
+    display: flex;
+}
+
+.leftColumn{
+    height: 40vh; 
+    flex: 50%;
+}
+.rightColumn{
+    height: 40vh; 
+    flex: 50%; 
+    background-image: url(Images/friends.png);
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+#right-col-home{
+    background-image: url(Images/friends.png)
+}
+#right-col-about{
+    background-image: url(Images/fun.png)
+}
+#right-col-members{
+    background-image: url(Images/selfie.png)
+}
+.MainHeading{
+    color: rgb(219, 130, 172);
+    font-family: 'Concert One', cursive; 
+    font-size: 4em;
+}
+#contentArea{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#LayoutContainer {
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#passwordArea {
+    margin-top: 5em;
+}
